@@ -1,0 +1,12 @@
+@media screen and (min-width: 576px) {
+
+    .presentation img {
+        float: left;
+        margin-right: 10px;
+    }
+
+
+    .social-networks button {
+        flex-basis: calc(100% / 3 - 20px);
+    }
+}
