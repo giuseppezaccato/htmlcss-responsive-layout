@@ -1,5 +1,9 @@
 @media screen and (min-width:992px) {
 
+    .container {
+        max-width: 75%;
+    }
+
     .recipe-name {
         font-size: 3rem;
     }
@@ -13,12 +17,12 @@
     }
 
     .recipe-video {
-        width: 70%;
+        flex-basis: 75%;
         height: 30vw;
     }
 
     .recipe-info {
-        width: 30%;
+        flex-basis: 25%;
     }
 
     .social-networks .label {
