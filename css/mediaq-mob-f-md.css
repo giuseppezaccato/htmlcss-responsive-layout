@@ -1,5 +1,3 @@
-/* Soluzione qui */
-
 @media screen and (min-width: 768px) {
 
     #topbar {
@@ -16,7 +14,6 @@
 
     .recipe-name {
         font-size: 2rem;
-
     }
 
     .quick-notes ul {
@@ -32,11 +29,13 @@
         display: block;
     }
 
+    .social-networks button {
+        flex-basis: calc(100% / 3 - 20px);
+    }
 
+    .presentation img {
+        float: left;
+        margin-right: 15px;
+    }
 
 }
-
-
-
-
-@media screen and(min-width:992px) {}

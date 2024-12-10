@@ -1,0 +1,33 @@
+@media screen and (min-width:992px) {
+
+    .recipe-name {
+        font-size: 3rem;
+    }
+
+    .quick-notes ul {
+        display: block;
+    }
+
+    .recipe-card {
+        display: flex;
+    }
+
+    .recipe-video {
+        width: 70%;
+        height: 30vw;
+    }
+
+
+    .recipe-info {
+        width: 30%;
+    }
+
+    .social-networks .label {
+        display: inline-block;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+}
