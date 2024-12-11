@@ -1,7 +1,11 @@
 @media screen and (min-width: 768px) {
 
     #topbar {
-        display: inline-block;
+        /* display: inline-block;
+        avendo gia elemento flex, meglio mantenerlo tale
+        e fixarlo in base a come mi serve che si sposti*/
+
+        justify-content: flex-start;
     }
 
     main {
@@ -19,10 +23,12 @@
     .quick-notes ul {
         display: flex;
         flex-wrap: wrap;
+        align-items: center;
+        gap: 10px;
     }
 
     .quick-notes li {
-        flex-basis: calc(100% / 3);
+        flex-basis: calc(100% / 3 - 10px);
     }
 
     .ads {

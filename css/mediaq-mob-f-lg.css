@@ -18,19 +18,28 @@
 
     .recipe-video {
         flex-basis: 75%;
-        height: 30vw;
+        height: auto;
+        /* bastava dargli auto inveche che 30vw */
     }
 
     .recipe-info {
         flex-basis: 25%;
+        /* si puo anche non mettere volendo è automatico il resizing dopo aver dato la prima */
     }
 
     .social-networks .label {
         display: inline-block;
+        /* inline-block se si vuole tenere il potere di margin e padding
+         sull'elemento stesso in definitiva */
+
     }
 
     footer {
         display: flex;
+        align-items: center;
+        text-align: left;
+
         justify-content: space-between;
+
     }
 }

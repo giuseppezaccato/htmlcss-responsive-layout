@@ -2,10 +2,11 @@
 
     .presentation img {
         float: left;
-        margin-right: 10px;
+        margin-right: 20px;
+        margin-top: 10px;
     }
 
     .social-networks button {
-        flex-basis: calc(100% / 3 - 20px);
+        flex-basis: calc(100% / 5 - 20px);
     }
 }
